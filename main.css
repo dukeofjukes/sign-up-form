@@ -14,7 +14,7 @@ body {
 body > .left {
   width: 40vw;
   background-image: url(./halie-west-25xggax4bSA-unsplash.jpg);
-  /* need some image styling here */
+  background-size: cover;
 }
 
 body > .left > .logo {
@@ -26,16 +26,26 @@ body > .left > .logo {
   font-family: NorseBold;
   font-size: 100px;
   color: white;
-  /* add transparent background */
+  padding: 20px 0 20px 0;
+  background-color: rgba(0, 0, 0, 30%);
 }
 
+/* the odin logo */
 body > .left > .logo > img {
   width: 100px;
-  margin-right: 10px;
 }
 
-body > .left > .logo > .photo-credit {
-  /* position: fixed; */
+body > .left > .photo-credit {
+  position: fixed;
+  color: white;
+  bottom: 10px;
+  text-align: center;
+  width: 40%;
+}
+
+body > .left a {
+  text-decoration: underline;
+  color: inherit;
 }
 
 body > .right {
