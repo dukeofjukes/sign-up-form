@@ -22,39 +22,44 @@
     </div>
 
     <div class="right">
-      <h2>
-        This is not a real online service! You know you need something like this
-        in your life to help you realize your deepest dreams. Sign up
-        <em>now</em> to get started.
-      </h2>
-      <h2>You <em>know</em> you want to.</h2>
+      <div class="container">
+        <h2>
+          This is not a real online service! You know you need something like
+          this in your life to help you realize your deepest dreams. Sign up
+          <em>now</em> to get started.
+        </h2>
+        <h2>You <em>know</em> you want to.</h2>
+      </div>
 
       <form action="">
         <div class="container">
           <h3>Let's do this!</h3>
-          <div class="entry">
-            <label for="first-name">FIRST NAME</label>
-            <input type="text" id="first-name" />
-          </div>
-          <div class="entry">
-            <label for="last-name">LAST NAME</label>
-            <input type="text" id="last-name" />
-          </div>
-          <div class="entry">
-            <label for="email">EMAIL</label>
-            <input type="email" id="email" />
-          </div>
-          <div class="entry">
-            <label for="phone-number">PHONE NUMBER</label>
-            <input type="tel" id="phone-number" />
-          </div>
-          <div class="entry">
-            <label for="password">PASSWORD</label>
-            <input type="password" id="password" />
-          </div>
-          <div class="entry">
-            <label for="confirm-password">CONFIRM PASSWORD</label>
-            <input type="password" id="confirm-password" />
+          <div class="grid">
+            <div class="entry">
+              <label for="first-name">FIRST NAME</label>
+              <input type="text" id="first-name" />
+            </div>
+            <div class="entry">
+              <label for="last-name">LAST NAME</label>
+              <input type="text" id="last-name" />
+            </div>
+            <div class="entry">
+              <label for="email">EMAIL</label>
+              <input type="email" id="email" />
+            </div>
+            <div class="entry">
+              <label for="phone-number">PHONE NUMBER</label>
+              <input type="tel" id="phone-number" />
+            </div>
+            <div class="entry">
+              <label for="password">PASSWORD</label>
+              <input type="password" class="error" id="password" />
+              <div class="error-message">* Passwords do not match</div>
+            </div>
+            <div class="entry">
+              <label for="confirm-password">CONFIRM PASSWORD</label>
+              <input type="password" class="error" id="confirm-password" />
+            </div>
           </div>
         </div>
         <input type="submit" value="Create Account" />
