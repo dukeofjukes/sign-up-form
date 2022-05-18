@@ -3,6 +3,10 @@
   src: url(./Norse-Bold.otf);
 }
 
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
   display: flex;
   margin: 0;
@@ -53,4 +57,10 @@ body > .right {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-color: rgb(247, 247, 247);
+}
+
+body > .right > form > .container {
+  padding: 40px;
+  background-color: rgb(255, 255, 255);
 }
